@@ -7,7 +7,7 @@ class NavigationBar extends Component {
       <nav className="navbar navbar-expand-lg navbar-light bg-white">
         <a
           className="navbar-brand d-block d-sm-block d-md-block d-lg-none"
-          href="#!"
+          href="#"
         >
           <img
             src="assets/img/logo-dark.png"
@@ -16,7 +16,6 @@ class NavigationBar extends Component {
             alt="RadioTALK"
           />
         </a>
-        {/* BOTÃO PARA ABRIR O MENU
         <button
           className="hamburger hamburger--slider"
           type="button"
@@ -28,12 +27,12 @@ class NavigationBar extends Component {
           <span className="hamburger-box">
             <span className="hamburger-inner" />
           </span>
-        </button>*/}
+        </button>
         {/* <!-- Added Mobile-Only Menu --> */}
         <ul className="navbar-nav ml-auto mobile-only-control d-block d-sm-block d-md-block d-lg-none">
           <li className="nav-item dropdown">
             <a
-              href="#!"
+              href="#"
               className="nav-link dropdown-toggle"
               id="navbar-notification-search-mobile"
               data-toggle="dropdown"
@@ -53,8 +52,8 @@ class NavigationBar extends Component {
                     <input
                       type="text"
                       className="form-control"
-                      placeholder="Search for..."
-                      aria-label="Search for..."
+                      placeholder="Buscar contatos..."
+                      aria-label="Buscar contatos..."
                       aria-describedby="basic-addon2"
                     />
                     <div className="input-group-append">
@@ -108,8 +107,8 @@ class NavigationBar extends Component {
                       <input
                         type="text"
                         className="form-control"
-                        placeholder="Search for..."
-                        aria-label="Search for..."
+                        placeholder="Buscar contatos..."
+                        aria-label="Buscar contatos..."
                         aria-describedby="basic-addon2"
                       />
                       <div className="input-group-append">
@@ -117,7 +116,7 @@ class NavigationBar extends Component {
                           className="btn btn-primary btn-gradient waves-effect waves-light"
                           type="button"
                         >
-                          Search
+                          Buscar
                         </button>
                       </div>
                     </div>
@@ -127,7 +126,7 @@ class NavigationBar extends Component {
             </li>
             <li className="nav-item dropdown">
               <a
-                href="#!"
+                href="#"
                 className="nav-link dropdown-toggle no-waves-effect"
                 id="navbar-notification-calendar"
                 data-toggle="dropdown"
@@ -281,7 +280,7 @@ class NavigationBar extends Component {
           <ul className="navbar-nav ml-5 navbar-profile">
             <li className="nav-item dropdown">
               <a
-                href="#!"
+                href="#"
                 className="nav-link dropdown-toggle"
                 id="navbar-dropdown-navbar-profile"
                 data-toggle="dropdown"
@@ -289,7 +288,7 @@ class NavigationBar extends Component {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                <div className="profile-name">Johanna Quinn</div>
+                <div className="profile-name">Vipphone</div>
                 <div className="profile-picture bg-gradient bg-primary has-message float-right">
                   <img
                     src="assets/img/profile-pic.jpg"
@@ -306,7 +305,7 @@ class NavigationBar extends Component {
                 <li>
                   <a
                     className="dropdown-item"
-                    href="profiles-member-profile.html"
+                    href="#"
                   >
                     Perfil
                   </a>
@@ -314,13 +313,13 @@ class NavigationBar extends Component {
                 <li>
                   <a
                     className="dropdown-item"
-                    href="profiles-member-profile.html"
+                    href="#"
                   >
                     Configurações
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="sisu-lock-screen.html">
+                  <a className="dropdown-item" href="#">
                     Sair
                   </a>
                 </li>

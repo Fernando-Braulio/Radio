@@ -54,7 +54,6 @@ class Home extends Component {
                 </div>
                 <div className="tile-right">
                   <div className="tile-number">00:00:00
-                    
                   </div>
                 </div>
               </div>
@@ -65,10 +64,14 @@ class Home extends Component {
           <div className="col-md-6 col-lg-6 col-xl-8 mb-5">
             <div className="card">
               <div className="card-header">
-                Conversas                
+                <img
+                  src="https://api.monitchat.com/img/profile_thumbs/profile_pic.png"
+                  width="45"
+                  height="32.3"
+                />
               </div>
               <div className="card-body">
-                <p className="cnv">Teste 01</p>
+                <p className="cnv">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
               </div>
             </div>
           </div>
