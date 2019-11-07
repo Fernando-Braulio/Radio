@@ -11,7 +11,7 @@ class Footer extends Component {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Vipphone Software
+          Vipphone Software Telecom LTDA
         </a>
       </footer>
     );
