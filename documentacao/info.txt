@@ -1,0 +1,6 @@
+No Documentation está a documentação completa do template.
+Em Files está os arquivos de cada página do template.
+Em React está o projeto que iniciou o RadioTalk, foi inciado porém não foi finalizado.
+
+O projeto foi inciado em React.
+Para startar terá que entrar em React, executar o comando npm install, depois npm start, caso quando executar o npm start ocorrer erro basta executar o npm update check failed, logo após tentar o npm start novamente.
